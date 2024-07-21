@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useRef } from "react";
 
 const OtpInput = ({ otpCode, setOtpCode, setError }) => {
   const inputs = useRef([]);

@@ -1,10 +1,10 @@
-import { useRouter } from 'next/navigation';
+// import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
 const useAuth = () => {
     const [user, setUser] = useState(null);
     const [loading, setLoading] = useState(true); 
-    const router = useRouter();
+    // const router = useRouter();
 
     const fetchUser = async () => {
         const token = localStorage.getItem('token');

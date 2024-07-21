@@ -4,14 +4,14 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "target": "es2022",
-    "allowJs": true,
+    "allowJs": true, // Allows JavaScript files to be compiled
     "resolveJsonModule": true,
     "moduleDetection": "force",
     "isolatedModules": true,
     /* Strictness */
     "strict": true,
     "noUncheckedIndexedAccess": true,
-    "checkJs": false,
+    "checkJs": false, // Disable type checking for JavaScript files
 
     /* Bundled projects */
     "lib": ["dom", "dom.iterable", "ES2022"],
@@ -34,9 +34,10 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "**/*.cjs",
-    "**/*.js",
-    ".next/types/**/*.ts"
-, "prisma/seed.t]s"  ],
+    "**/*.js", // Ensure JavaScript files are included
+    "**/*.jsx", // Add JSX files to be included
+    ".next/types/**/*.ts",
+    "prisma/seed.ts" // Fixed typo here: `prisma/seed.t]s` to `prisma/seed.ts`
+  ],
   "exclude": ["node_modules"]
 }
