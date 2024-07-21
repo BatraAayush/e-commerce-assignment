@@ -1,4 +1,4 @@
-import Image from "next/Image";
+import Image from "next/image";
 import SearchIcon from "../../../public/images/search-icon.png";
 import CartIcon from "../../../public/images/cart-icon.png";
 import LeftArrow from "../../../public/images/left-arrow.png";
